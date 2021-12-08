@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <!-- icons materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- fontswesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Cambios Naymar</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="row card-panel" style="margin-top: 20px">
+                <div class="col s6 center-align">
+                    <img src="img/icon-test.png" alt="img-test" class="responsive-img" height="20px">
+                </div>
+                <div class="col s6 center-align">
+                    <h2>Cambios Naymar</h2>
+                    <p>Envíos rápidos, seguros y al mejor precio</p>
+                </div>
+            </div>
+
+            <div class="section container">
+                <div class="row">
+                    <div class="col s12">
+                        <form action="#" method="post">
+                            <div class="row card-panel">
+                                <h5 class="center-align">¿A dónde quieres enviar?</h5>
+                                <div class="input-field col s6">
+                                    <select name="pais-origen" id="pais-origen">
+                                        <option value="" selected disabled>Selecione</option>
+                                        <option value="cl">Chile</option>
+                                        <option value="ar">Argentina</option>
+                                        <option value="pe">Perú</option>
+                                        <option value="co">Colombia</option>
+                                        <option value="ve">Venezuela</option>
+                                    </select>
+                                    <label>País de origen</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <select name="pais-destino" id="pais-destino">
+                                        <option value="" selected disabled>Selecione</option>
+                                        <option value="cl">Chile</option>
+                                        <option value="ar">Argentina</option>
+                                        <option value="pe">Perú</option>
+                                        <option value="co">Colombia</option>
+                                        <option value="ve">Venezuela</option>
+                                    </select>
+                                    <label>País de destino</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input type="text" name="nombre" id="nombre" required class="validate">
+                                    <label for="nombre">Nombres</label>
+                                    <span class="helper-text" data-error="Error, ingresa un nombre adecuado."></span>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input type="text" name="apellido" id="apellido" required class="validate">
+                                    <label for="apellido">Apellidos</label>
+                                    <span class="helper-text" data-error="Error, ingresa un apellido adecuado."></span>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input type="text" name="iden" id="iden" required class="validate">
+                                    <label for="iden">Número de indentificación</label>
+                                    <span class="helper-text" data-error="Error, ingresa un documento adecuado."></span>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">phone</i>
+                                    <input type="tel" name="telf" id="telf" required class="validate">
+                                    <label for="telf">Telefono</label>
+                                    <span class="helper-text" data-error="Error, ingresa un telefono adecuado."></span>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">email</i>
+                                    <input type="email" name="email" id="email" required class="validate"
+                                        data-length="45">
+                                    <label for="email">Email</label>
+                                    <span class="helper-text" data-error="Error, ingresa un email adecuado."></span>
+                                </div>
+                                <div class="input-field col s12 center-align">
+                                    <button class="btn waves-effect waves-light" type="submit">Enviar
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col m12 s12 center-align">
+                    <h5 class="white-text">Social Media</h5>
+                    <div class="collection">
+                        <a href="#!" class="collection-item"><i class="fab fa-facebook"></i></a>
+                        <a href="#!" class="collection-item"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tiayuriscake/?hl=es" target="blank" class="collection-item"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                <p>
+                    &copy; <b>Made by Jonayker Rozo</b> with
+                    <a class="grey-text text-lighten-4" href="https://materializecss.com/"
+                        target="blank">Materialize</a>- Todos
+                    los Derechos Reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
